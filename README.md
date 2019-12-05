@@ -6,8 +6,6 @@ Displays a different random, awful Dad joke everytime you press the button.
 ## Live
 
 -   [Dad Joke Generator](https://zmatthews33.github.io/dadjokegenerator/)
-- user: admin@admin.com 
-- password: 123456
 
 ## Technologies Used
 
