@@ -11,7 +11,7 @@ const buttonText = [
   'seriously',
   'stop it.',
   'please stop',
-  'that was the worst one',
+  "you're embarrassing",
 ];
 
 async function fetchJoke() {
