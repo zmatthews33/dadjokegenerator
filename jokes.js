@@ -27,3 +27,13 @@ async function fetchJoke() {
   return data;
 }
 
+async function handleClick() {
+  const { joke } = await fetchJoke();
+  jokeHolder.textContent = joke;
+  jokeButtonSpan.textContent = randomItemFromArray(
+    buttonText,
+    jokeButtonSpan.textContent
+  );
+}
+
+jokeButton.addEventListener('click', handleClick);
