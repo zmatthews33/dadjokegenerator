@@ -4,11 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Dad Jokes</title>
+		<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="main.css" />
 	</head>
 
 	<body>
-		<div class="wrapper">
+		<div class="wrapper container">
 			<div class="joke">
 				<p>Dad Jokes.</p>
 			</div>
@@ -20,10 +21,14 @@
 				</div>
 			</button>
 		</div>
-		<div class="img-container">
-			<img src="./dadmower.png" alt="dad mower" height="800" width="800" />
+		<div class="container img-container">
+			<img class="img-fluid" src="./dadmower.png" alt="dad mower" height="auto" width="100%" />
 		</div>
 
 		<script src="./jokes.js"></script>
+		<script src="lib/jquery/jquery.min.js"></script>
+		<script src="lib/jquery/jquery-migrate.min.js"></script>
+		<script src="lib/popper/popper.min.js"></script>
+		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>
