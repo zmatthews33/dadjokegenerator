@@ -10,6 +10,7 @@ Displays a different random, awful Dad joke everytime you press the button.
 ## Technologies Used
 
 -   Javascript
+-   Bootstrap
 -   icanhazdadjoke API
 
 ---
